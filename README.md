@@ -14,4 +14,4 @@ To launch the simulation, run the following commands:
 cd ~/ros2_ws
 colcon build --symlink-install --packages-select new_gazebo
 source install/setup.bash
-ros2 launch new_gazebo robot_farm.launch.xml
+ros2 launch new_gazebo robot_farm.py
